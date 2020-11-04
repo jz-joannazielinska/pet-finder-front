@@ -30,7 +30,7 @@ export const FootIconStyle = styled.span`
     height: 50px;
     border-radius: 50%;
     background-color: #f8f8f8;
-    top: 26vh;
+    top: 42vh;
     right: 12vw;
     &::after {
         content:"";
