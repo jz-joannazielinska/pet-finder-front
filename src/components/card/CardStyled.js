@@ -1,11 +1,6 @@
 import styled from 'styled-components';
 import foot from '../../assets/icons/footprint.svg';
 
-// #A0B828
-// #578FC7
-// #D12329
-// #31495E
-
 
 export const ButtonStyle = styled.a`
     width: 100%;
