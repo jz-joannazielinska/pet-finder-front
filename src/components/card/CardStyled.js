@@ -4,7 +4,7 @@ import foot from '../../assets/icons/footprint.svg';
 
 export const ButtonStyle = styled.a`
     width: 100%;
-    color: #4e9db9;
+    color: #4487a2;
     background-color: #FFE135;
     border-radius: 25px;
     display: inline-block;
@@ -29,9 +29,9 @@ export const FootIconStyle = styled.span`
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    background-color: #f8f8f8;
-    top: 42vh;
-    right: 12vw;
+    background-color: #f2f2f2;
+    top: calc(35px + 360px - 50px/2);
+    right: 65px;
     &::after {
         content:"";
         display: block;
@@ -52,7 +52,7 @@ export const ImageStyle = styled.img`
 
 export const IconBack = styled.div`
     position: absolute;
-    top: 50px;
+    top: 55px;
     left: 50px;
     @media (max-width: 430px) {
         left: 40px;
@@ -62,7 +62,7 @@ export const IconBack = styled.div`
 export const IconLove = styled.div`
     position: absolute;
     right: 50px;
-    top: 50px;
+    top: 55px;
     @media (max-width: 430px) {
         right: 40px;
     }

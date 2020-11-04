@@ -1,0 +1,18 @@
+<svg fill="#4487a2" width="32" height="32" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <style>.cls-1{fill:none;stroke:#000;stroke-linejoin:round;stroke-width:2px;}</style>
+ </defs>
+ <title/>
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="602" width="802" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <g id="_216-Male">
+   <polyline id="svg_1" points="16 1 31 1 31 14" class="cls-1"/>
+   <circle id="svg_2" r="10" cy="21" cx="11" class="cls-1"/>
+   <line id="svg_3" y2="14" y1="1" x2="18" x1="31" class="cls-1"/>
+  </g>
+ </g>
+</svg>
