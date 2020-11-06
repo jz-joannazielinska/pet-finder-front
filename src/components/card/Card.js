@@ -26,21 +26,29 @@ function Card() {
                         <h4 className="card-title mb-1" style={{color: "#4487a2"}}>Hector</h4>
                         <p style={{color: "#858585"}}>Jack Russell Terrier</p>
                         <div class="row justify-content-around" style={{margin: "2rem 0"}}>
-                            <div style={{color: "#4a4b4c", display: "grid", justifyContent: "center", backgroundColor: "#f2f2f2", borderRadius: "5px", paddingTop: "20px", paddingBottom: "20px", alignItems: "center", flex: "0 0 23%", maxWidth: "23%"}} class="col-3">
-                                <img style={{width: "30px"}} src={Gender} alt="gender" />
-                                <div style={{color: "rgb(115, 115, 115)", fontWeight: "500"}}>Boy</div>
+                            <div style={{color: "#4a4b4c", backgroundColor: "#f2f2f2", borderRadius: "5px", padding: "0px", flex: "0 0 23%", maxWidth: "23%"}} class="col-3">
+                                <div className="col-12 pt-4 pb-4">
+                                    <img style={{width: "30px"}} src={Gender} alt="gender" />
+                                    <div style={{color: "rgb(115, 115, 115)", fontWeight: "500"}}>Boy</div>
+                                </div>
                             </div>
-                            <div style={{color: "#4a4b4c", display: "grid", justifyContent: "center", backgroundColor: "#f2f2f2", borderRadius: "5px", paddingTop: "20px", paddingBottom: "20px", alignItems: "center", flex: "0 0 23%", maxWidth: "23%"}} class="col-3">
-                                <img style={{width: "30px"}} src={Clock} alt="Clock" />
-                                <div style={{color: "rgb(115, 115, 115)", fontWeight: "500"}}>2 years</div>
+                                <div style={{color: "#4a4b4c", backgroundColor: "#f2f2f2", borderRadius: "5px", padding: "0px", flex: "0 0 23%", maxWidth: "23%"}} class="col-3">
+                                    <div className="col-12 pt-4 pb-4">
+                                    <img style={{width: "30px"}} src={Clock} alt="Clock" />
+                                    <div style={{color: "rgb(115, 115, 115)", fontWeight: "500"}}>2 years</div>
+                                </div>
                             </div>
-                            <div style={{color: "#4a4b4c", display: "grid", justifyContent: "center", backgroundColor: "#f2f2f2", borderRadius: "5px", paddingTop: "20px", paddingBottom: "20px", alignItems: "center", flex: "0 0 23%", maxWidth: "23%"}} class="col-3">
-                                <img style={{width: "30px"}} src={Bone} alt="Bons" />
-                                <div style={{color: "rgb(115, 115, 115)", fontWeight: "500"}}>Active</div>
+                                <div style={{color: "#4a4b4c", backgroundColor: "#f2f2f2", borderRadius: "5px", padding: "0px", flex: "0 0 23%", maxWidth: "23%"}} class="col-3">
+                                    <div className="col-12 pt-4 pb-4">
+                                    <img style={{width: "30px"}} src={Bone} alt="Bons" />
+                                    <div style={{color: "rgb(115, 115, 115)", fontWeight: "500"}}>Active</div>
+                                </div>
                             </div>
-                            <div style={{color: "#4a4b4c", display: "grid", justifyContent: "center", backgroundColor: "#f2f2f2", borderRadius: "5px", paddingTop: "20px", paddingBottom: "20px", alignItems: "center", flex: "0 0 23%", maxWidth: "23%"}} class="col-3">
-                                <img style={{width: "30px"}} src={Pets} alt="pets" />
-                                <div style={{color: "rgb(115, 115, 115)", fontWeight: "500"}}>Friendly</div>
+                                <div style={{color: "#4a4b4c", backgroundColor: "#f2f2f2", borderRadius: "5px", padding: "0px", flex: "0 0 23%", maxWidth: "23%"}} class="col-3">
+                                    <div className="col-12 pt-4 pb-4">
+                                    <img style={{width: "30px"}} src={Pets} alt="pets" />
+                                    <div style={{color: "rgb(115, 115, 115)", fontWeight: "500"}}>Friendly</div>
+                                </div>
                             </div>
                         </div>
                         <p style={{color: "#858585"}}className="card-text mb-4">Hector is extremely playful, active and funny. He needs a real family and care, because his last owner abandoned him on the street.</p>
