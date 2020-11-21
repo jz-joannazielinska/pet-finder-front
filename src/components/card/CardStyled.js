@@ -30,7 +30,7 @@ export const FootIconStyle = styled.span`
     height: 50px;
     border-radius: 50%;
     background-color: #f2f2f2;
-    top: calc(35px + 360px - 50px/2);
+    top: calc(35px + 360px - 50px/2 - 100px);
     right: 65px;
     &::after {
         content:"";
@@ -52,7 +52,7 @@ export const ImageStyle = styled.img`
 
 export const IconBack = styled.div`
     position: absolute;
-    top: 55px;
+    top: 5%;
     left: 50px;
     @media (max-width: 430px) {
         left: 40px;
@@ -62,7 +62,7 @@ export const IconBack = styled.div`
 export const IconLove = styled.div`
     position: absolute;
     right: 50px;
-    top: 55px;
+    top: 5%;
     @media (max-width: 430px) {
         right: 40px;
     }
